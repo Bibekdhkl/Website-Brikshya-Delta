@@ -22,23 +22,38 @@
         }
       };
     </script>
+    <style>
+       *{
+        font-family: Poppins;
+      }
+     .custom-gradient {
+        /* background: linear-gradient(to right, #198754, #6fba0d); */
+        background: linear-gradient(to top, #196d4a, #0a1a01);;
+        color: #fff; /* Set text color to contrast with the gradient */
+      }
+    </style>
     <title>Brikshya</title>
   </head>
   <body>
     <div class="container">
-      <div class="image-section">
-        <div class="hero-text-wrapper">
-          <p class="heading-text px-5">Brikshya - वृक्ष</p>
-          <p class="sub-text">“
-            Helping people respond to the climate crisis – one tree at a time.”
-            </p>
-        </div>
+      <div
+        class="image-section"
+        style="background-image: url(images/login-forest.png)"
+      >
       </div>
-      <div class="login-section hide-section">
+      <div class="login-section hide-section custom-gradient">
+        <div class="hero-text-wrapper">
+          <p class="heading-text px-5" style="color: #43e398;padding-bottom: 0.5em;">
+            Brikshya - वृक्ष
+          </p>
+          <!-- <p class="sub-text" style="color: rgb(0, 0, 0); font-weight: 600">
+            “ Helping people respond to the climate crisis – one tree at a
+            time.”
+          </p> -->
+        </div>
         <div class="login-wrap">
-          <div class="login-text">Login</div>
+          <div class="login-text" style="color: white">Login</div>
           <label id="response"></label>
-
           <div class="form-wrapper">
             <form method="POST" onSubmit="loginuser(event)">
               <div class="input-wrapper">
@@ -47,17 +62,19 @@
                   placeholder="Username"
                   name="email"
                   class="input-field"
+                  style="color: white;"
                 />
                 <input
                   type="password"
                   name="password"
                   placeholder="Password"
                   class="input-field"
+                  style="color: white;"
                 />
               </div>
               <!-- <p class="remember-me"><input type="checkbox" name="rememberMe" id="rememberMe">&nbsp;Remember Me</p> -->
               <div class="form-buttons">
-                <input type="submit" value="Sign In" class="signin-btn" />
+                <input type="submit" value="Sign In" class="signin-btn"  style="color: white;"/>
               </div>
               <p class="signup-text">
                 Dont have an account yet?<a
