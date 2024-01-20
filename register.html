@@ -10,18 +10,36 @@
     <script src="/backend/endpoint.js"></script>
 
     <title>Kakshya</title>
+    <style>
+      *{
+        font-family: Poppins;
+      }
+      .custom-gradient {
+        /* background: linear-gradient(to right, #198754, #6fba0d); */
+        background: linear-gradient(to right, #295832, #866d6d);
+        color: #fff; /* Set text color to contrast with the gradient */
+      }
+      
+      input{
+        color: white;
+      }
+    </style>
   </head>
   <body>
     <div class="container">
       <div class="image-section">
         <div class="hero-text-wrapper">
-          <p class="heading-text">Brikshya - वृक्ष</p>
-          <p class="sub-text">Take smart notes</p>
+          <p class="heading-text" style="padding-bottom: 0.2em; color: #ffffff">
+            Brikshya - वृक्ष
+          </p>
+          <p class="sub-text" style="font-weight: 800;color: #ffffff;">
+            Track your every worthy donations that you made for the nature.
+          </p>
         </div>
       </div>
-      <div class="login-section hide-section">
+      <div class="login-section hide-section custom-gradient" style="color: white;">
         <div class="login-wrap">
-          <div class="login-text">Register</div>
+          <div class="login-text" style="color: white;">Register</div>
           <label id="response"></label>
           <div class="form-wrapper">
             <form method="POST" onSubmit="registeruser(event)">
@@ -33,6 +51,7 @@
                   name="name"
                   id="username"
                   class="input-field"
+                  style="color: black;"
                 />
 
                 <input
@@ -41,6 +60,7 @@
                   name="email"
                   id="email"
                   class="input-field"
+                  style="color: black;"
                 />
                 <input
                   type="password"
@@ -48,6 +68,7 @@
                   class="input-field"
                   name="password"
                   id="password"
+                  style="color: black;"
                 />
                 <input
                   type="password"
@@ -55,11 +76,12 @@
                   id="confirmPassword"
                   placeholder="Confirm Password"
                   class="input-field"
+                  style="color: black;"
                 />
               </div>
               <!-- <p class="remember-me"><input type="checkbox" name="rememberMe" id="rememberMe">&nbsp;Remember Me</p> -->
               <div class="form-buttons">
-                <input type="submit" value="Sign Up" class="signin-btn" />
+                <input type="submit" value="Sign Up" class="signin-btn" style="font-size: 1.5em;" />
               </div>
               <p class="signup-text">
                 Already have an account?<a
