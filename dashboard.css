@@ -31,7 +31,7 @@ body {
 .container {
   min-height: 100vh;
   background-color: var(--main-bg);
-  padding: 3% 5%;
+  /* padding: 3% 5%; */
   color: var(--main-text-color);
 }
 .nav {
