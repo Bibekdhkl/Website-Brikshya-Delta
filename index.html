@@ -30,6 +30,39 @@
       color: #fff; /* Set text color to contrast with the gradient */
     }
 
+    .leaderboard-card {
+      background-color: #7ed956;
+      border: 2px solid #198754;
+      border-radius: 10px;
+      padding: 20px;
+      margin: 20px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .leaderboard-header {
+      background-color: #198754;
+      color: #fff;
+      padding: 10px;
+      border-radius: 8px;
+    }
+
+    .leaderboard-list {
+      list-style: none;
+      padding: 0;
+    }
+
+    .leaderboard-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px;
+      border-bottom: 1px solid #198754;
+    }
+
+    .leaderboard-item:last-child {
+      border-bottom: none;
+    }
+
     </style>
 </head>
 
@@ -166,7 +199,76 @@
         </div>
     </div>
 
-    
+    <h1 class="text-center">LEADERBOARD👑</h1>
+    <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="leaderboard-card">
+              <div class="leaderboard-header text-center">
+                <h4>Most Recent Trees</h4>
+              </div>
+              <ul class="leaderboard-list">
+                <li class="leaderboard-item">
+                  <div>
+                    <strong>Elon Musk</strong>
+                    <p class="text-muted">Bought on: Jan 15, 2024  |  10 trees</p>
+                  </div>
+                  <span class="badge badge-primary">1 days ago</span>
+                </li>
+                <li class="leaderboard-item">
+                  <div>
+                    <strong>Mr Beast</strong>
+                    <p class="text-muted">Bought on: Jan 12, 2024  |  8 trees</p>
+                  </div>
+                  <span class="badge badge-primary">3 days ago</span>
+                </li>
+                <li class="leaderboard-item">
+                  <div>
+                    <strong>Joe Rogan</strong>
+                    <p class="text-muted">Bought on: Jan 10, 2024  |  5 trees</p>
+                  </div>
+                  <span class="badge badge-primary">7 days ago</span>
+                </li>
+                <!-- Add more items as needed -->
+              </ul>
+            </div>
+          </div>
+      
+          <div class="col-md-6">
+            <div class="leaderboard-card">
+              <div class="leaderboard-header text-center">
+                <h4 class="">Most Trees Bought</h4>
+              </div>
+              <ul class="leaderboard-list">
+                <li class="leaderboard-item">
+                  <div>
+                    <strong>Rajesh Hamal</strong>
+                    <p class="text-muted">Bought on: Jan 15, 2024  |  20 trees</p>
+                  </div>
+                  <span class="badge badge-primary">20 trees</span>
+                </li>
+                <li class="leaderboard-item">
+                  <div>
+                    <strong>Nikhil Upreti</strong>
+                    <p class="text-muted">Bought on: Jan 12, 2024  |  15 trees</p>
+                  </div>
+                  <span class="badge badge-primary">15 trees</span>
+                </li>
+                <li class="leaderboard-item">
+                  <div>
+                    <strong>Rekha Thapa</strong>
+                    <p class="text-muted">Bought on: Jan 10, 2024  |  12 trees</p>
+                  </div>
+                  <span class="badge badge-primary">12 trees</span>
+                </li>
+                <!-- Add more items as needed -->
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
     
     <!-- Quote/testimonial aside-->
     <aside class="text-center custom-gradient">
