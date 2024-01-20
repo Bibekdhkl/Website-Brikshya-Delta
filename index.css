@@ -14,6 +14,11 @@
 .theme-color {
   color: var(--theme-color);
 }
+
+.custom-gradient {
+  background: linear-gradient(to right, #7ed956, #6fba0d);
+  color: #0b0303; /* Set text color to contrast with the gradient */
+}
 body {
   background-color: var(--main-bg);
 }

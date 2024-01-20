@@ -6,9 +6,9 @@
   overflow: hidden;
 }
 :root {
-  --main-bg: #151515;
-  --main-text-color: white;
-  --theme-color: #cca061;
+  --main-bg: #12b07475;
+  --main-text-color: #ba8b26;
+  --theme-color: #000000;
 }
 .container {
   height: 100vh;
@@ -23,7 +23,7 @@
   align-items: center;
   justify-content: center;
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url(./images/login-image-compressed.jpg);
+    url(./images/login-image.jpg);
   background-position: center;
   background-size: cover;
   color: var(--main-text-color);

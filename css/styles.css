@@ -10842,7 +10842,7 @@ html {
 }
 
 .text-gradient {
-  background: -webkit-linear-gradient(#2937f0, #9f1ae2);
+  background: -webkit-linear-gradient(#198754, #6fba0d);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -10946,7 +10946,7 @@ section {
 section.cta {
   position: relative;
   padding: 15rem 0;
-  background-image: url("https://source.unsplash.com/5g41N3uRPf8/1500x800");
+  background-image: url("../images/footer.png");
   background-position: center;
   background-size: cover;
 }
@@ -11019,6 +11019,9 @@ section.cta:before {
   }
 }
 @media (min-width: 768px) {
+
+  
+
   .features-device-mockup .circle {
     width: 60%;
     left: auto;

@@ -5,11 +5,11 @@
   font-family: "Poppins", sans-serif;
 }
 :root {
-  --main-bg: #151515;
-  --light-bg: #ffffff10;
-  --main-text-color: white;
-  --theme-color: #cca061;
-  --theme-color-hover: #9d7a4a;
+  --main-bg: #8ae5cfdc;
+  --light-bg: #00000010;
+  --main-text-color: #ea6a15;
+  --theme-color: #467319;
+  --theme-color-hover: #233d0a;
 }
 .theme-color {
   color: var(--theme-color);
@@ -50,12 +50,12 @@ body {
   border-radius: 50%;
   cursor: pointer;
 }
-.hero-btns {
+/* .hero-btns {
   display: flex;
   align-items: center;
   justify-content: start;
-  margin: 40px 0;
-}
+  margin: 0;
+} */
 .create-btn,
 .add-btn {
   /* margin-top: 30px; */
@@ -71,7 +71,7 @@ body {
   justify-content: center;
   transition: 0.2s all;
   cursor: pointer;
-  margin-right: 3%;
+  /* margin-right: 3%; */
 }
 .create-btn:hover,
 .add-btn:hover {
